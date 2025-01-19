@@ -17,3 +17,7 @@ https://github.com/Grigorich-JSDio/TG-Parser/issues/6
 ```code
 https://github.com/LonamiWebs/Telethon/issues/4051?ysclid=m1wpqef43k823378968
 ```
+
+```code
+https://stackforgeeks.com/blog/telethon-eventsnewmessage-limits-for-channels-to-monitor
+```
