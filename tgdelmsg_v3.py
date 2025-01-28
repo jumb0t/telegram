@@ -79,7 +79,7 @@ async def delete_messages():
                 try:
                     # Преобразование идентификатора чата для приватных ссылок
                     if is_private:
-                        chat_id = -1000000000000 + int(chat_identifier)
+                        chat_id = -1000000000000 - int(chat_identifier)
                     else:
                         chat_id = await client.get_peer_id(chat_identifier)
 
