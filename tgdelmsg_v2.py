@@ -52,7 +52,7 @@ async def delete_messages():
                 if match:
                     chat_id = int(match.group(1))
                     message_id = int(match.group(2))
-                    full_chat_id = -1000000000000 + chat_id
+                    full_chat_id = -1000000000000 - chat_id
 
                     try:
                         await client.delete_messages(full_chat_id, message_id)
